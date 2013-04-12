@@ -70,8 +70,8 @@ payments" [3]. The general procedure is this:
 * Minting
   * A payer creates a yet unsigned, 'blank' token according to the rules 
     published by the issuer. It includes a serial number.
-  * He obfuscates this blank, yielding the 'blind'. He send the blind to the
-    issuer and request signing with a special minting key.
+  * He obfuscates this blank, yielding the 'blind'. He sends the blind to the
+    issuer and requests signing with a special minting key.
   * If the issuer's requirements for minting (which may include a payment) 
     are met, he signs the payer's  blind with the nominated minting key.
   * The payer fetches the signed blind from the issuer and 'unblinds'. The 
